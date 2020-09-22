@@ -1,0 +1,16 @@
+AUTO USATE
+
+ID                Numero incrementale	 PRIMARY KEY, UNIQUE, AI
+Poster		      Stringa	  	         varchar()	     DEFAULT()
+Marca		      Stringa		         varchar(15)	 NOT NULL
+Modello		      Stringa 		         varchar(30)     NOT NULL
+Anno		      Data			         year		     NOT NULL
+Cilindrata	      Numero		         float(1,1)	     NOT NULL
+Alimentazione	  Stringa		         varchar(10)	 NOT NULL
+KW	  	          Numero		         SMALL 		     NOT NULL
+Chilometraggio	  Numero		         mediumint	     NOT NULL
+Cambio		      Stringa		         varchar(11)	 NOT NULL
+Posti		      Numeri		         varchar(9)	     NOT NULL
+Porte		      Numero		         varchar(5)	     NOT NULL
+Prezzo		      Numero         	     MEDIUMINT	     NOT NULL
+Disponibilità     Booleano		         TINYINT	     NOT NULL DEFAULT(1)
