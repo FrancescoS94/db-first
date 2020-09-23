@@ -12,5 +12,5 @@ Chilometraggio	  Numero		         mediumint	     NOT NULL
 Cambio		      Stringa		         varchar(11)	 NOT NULL
 Posti		      Numeri		         varchar(9)	     NOT NULL
 Porte		      Numero		         varchar(5)	     NOT NULL
-Prezzo		      Numero         	     MEDIUMINT	     NOT NULL
+Prezzo		      Numero         	     float(8,2)	     NOT NULL
 Disponibilità     Booleano		         TINYINT	     NOT NULL DEFAULT(1)
